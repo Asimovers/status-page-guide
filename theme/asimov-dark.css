@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
     --body-background-color: #171819;
@@ -28,7 +29,83 @@
 }
 
 h1 {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
+    font-family: 'Montserrat' !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+}
+
+h2 {
+    font-family: 'Montserrat' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 1.5rem !important;
+    line-height: 1.8125rem !important;
+}
+
+h4 {
+    font-family: 'Karla' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 1rem !important;
+    line-height: 1.1875rem !important;
+}
+
+
+.graph {
+    --background: none !important;
+}
+
+article {
+    border-radius: 0px !important;
+    border-top: 0px !important;
+    border-bottom: 0px !important;
+    border-right: 0px !important;
+}
+
+article.up {
+    border-left: 0.3rem solid !important;
+}
+
+article .graph {
+    font-family: 'Karla' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+}
+
+.logo {
+    font-family: 'Montserrat' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+    line-height: 1.5rem !important;
+}
+
+.lead {
+    font-family: 'Karla' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 17.6px !important;
+}
+
+
+li {
+    font-family: 'Montserrat' !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 16px !important;
+}
+
+footer {
+    font-family: 'Karla' !important; 
+    font-style: normal !important; 
+    font-weight: 400 !important; 
+    font-size: 16px !important; 
+    font-size: 1rem !important; 
+    line-height: 1.5rem !important; 
+}
+
+.graph {
+    --background: none;
 }
