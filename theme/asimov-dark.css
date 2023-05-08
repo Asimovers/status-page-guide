@@ -28,6 +28,21 @@
     --graph-filter: none;
 }
 
+.container { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        margin-top: 30px;
+    }
+}
+
 h1 {
     font-family: 'Montserrat' !important;
     font-style: normal !important;
