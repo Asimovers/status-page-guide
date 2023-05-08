@@ -1,13 +1,13 @@
 ![image](/assets/logo.svg) 
 
-# Pagina Uptime de Asimov
+# Página Uptime de Asimov
 
 A continuación se detallan las instrucciones para poder crear un status page, como por ejemplo el que Asimov brinda a la Universidad Católica de Chile: https://status.uc.asimov.cl. 
 
 ## Instrucciones 
 
-1. Clonar repositorio desde la opcion template en github https://github.com/Asimovers/cl-asimov-uc-status
-   1. Se suguiere creaer un nombre descriptivo a la url que tendra. 
+1. Clonar repositorio desde la opción template en github https://github.com/Asimovers/cl-asimov-uc-status
+   1. Se sugiere crear un nombre descriptivo a la url que tendrá. 
    3. Al momento de crear el repositorio debe ser publico (para usar github pages) y se deben incluir todas ramas (Include All Branches).
    4. Luego se debe crear un Personal Access Token para que el repositorio pueda operar las acciones de Github Actions. Y setearlos con la variable GH_PAT. Más detalles en https://upptime.js.org/docs/get-started
    5. Se debe editar el archivo `.upptimerc.yml` donde esta toda la configuración. 
@@ -15,13 +15,13 @@ A continuación se detallan las instrucciones para poder crear un status page, c
 
 ## Primeros pasos
 
-**☝️ TODAS LAS CONFIGURACION ESON SOBRE EL ARCHIVO `.upptimerc.yml`**
+**☝️ TODAS LAS CONFIGURURACIONES SOBRE EL ARCHIVO `.upptimerc.yml`**
 
 Primero se deben cambiar los siguientes datos de configuración.
 
 ```yml
 # .upptimerc.yml
-owner: Asimovers # corresponde al usuario u organizacion, deberia ser siempre Asimovers
+owner: Asimovers # corresponde al usuario u organización, debería ser siempre Asimovers
 repo: cl-asimov-uc-status # nombre del repositorio
 ```
 
@@ -48,7 +48,7 @@ assignees: # Users to assign downtime issues (optional)
   - githubUsername
 ```
 
-A continuacion se detalla la configuracion de dominio y contenido del sitio 
+A continuación se detalla la configuración de dominio y contenido del sitio 
 
 
 ```yml
@@ -80,7 +80,7 @@ status-website:
       href: https://asimov.cl/
 ```
 
-Se recomienda hacer los cambios directamente en el editor del repositorio, dado que cada vez que se hacen cambios las acciones automaticas generarn nuevos commits en el repositorio.
+Se recomienda hacer los cambios directamente en el editor del repositorio, dado que cada vez que se hacen cambios las acciones automáticas generar nuevos commits en el repositorio.
 
 
 Más opciones de configuración en https://upptime.js.org/docs/configuration
